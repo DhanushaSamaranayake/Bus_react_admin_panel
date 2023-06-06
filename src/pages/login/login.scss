@@ -1,0 +1,39 @@
+.login{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input{
+            width: 200px;
+            height: 30px;
+            margin: 10px;
+        }
+
+        button{
+            width: 100px;
+            height: 30px;
+            margin: 10px;
+            background-color: purple;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+        span{
+            color: red;
+            font-weight: bold;
+        }
+        .success{
+            color: green;
+            font-weight: bold;
+        }
+    }
+}
